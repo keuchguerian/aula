@@ -15,9 +15,4 @@ server.get('/tarefas', function(request, response)
         return response.json(tarefas);
 })
 
-
-
-
-
-
 server.listen(process.env.PORT || 3000);
