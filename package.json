@@ -1,0 +1,16 @@
+{
+  "name": "aula",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/keuchguerian/aula.git",
+  "author": "keuchguerian <a_guimaraes21@yahoo.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+      "start" : "node index.js",
+      "dev" : "nodemon index.js"
+  }
+}
